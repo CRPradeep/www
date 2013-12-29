@@ -1,0 +1,25 @@
+/**
+*author: CR Pradeep.
+*
+*Document to keep track of the versions of various libraries used in the project.
+*
+*Any other details such as steps/procedures/possible_conflicts/known_issues_with_libs
+*can also be recorded here for easy access.
+**/ 
+
+Version Record:
+---------------
+S.No.     File Name.                         Version.
+-------------------------------------------------------------
+  1       Angular.js                          1.2.6
+  2       Require.js                          2.1.9
+  3		  Text.js 							  2.0.10
+  4		  LessCss.js						  1.4.2
+  5		  Retina.js							  1.1.0
+  
+  
+  
+  Known Issues With Libs:
+  -----------------------
+  LessCss.js has its recent version 1.5.1. Opening it in the editor showed up some errors in it. Hence reverted 
+  back to the previous version 1.4.2 
