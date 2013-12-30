@@ -14,7 +14,10 @@ requirejs.config({
 		"app":"../app",
 		"controller": "../controllers/baseController",
 		"loginController": "../controllers/loginController",
-		"router":"../router"
+		"router":"../router",
+		"lessCss": "less",
+		"retina": "retina",
+		"text": "text",
 	},
 	"shim": {
 		"angular": {exports : 'angular'},
@@ -25,6 +28,10 @@ requirejs.config({
 		"controller":{deps:['angular']}
 	},
 	priority: ["angular"]
+});
+
+require( ['lessCss', 'retina', 'text'], function( lessCss, retina, text ) {
+	//	TODO:	Do nothing here
 });
 
 define(["angular", "app", "router"], function(angular, app) {
